@@ -1,5 +1,5 @@
 // code for countdown timer
-var deadline = new Date("Oct 11, 2021 22:52:00").getTime();
+var deadline = new Date("Oct 29, 2021 00:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var t = deadline - now;
